@@ -1,0 +1,14 @@
+.ancho40 {
+    width: 40%;
+}
+
+.base {
+    position: relative;
+}
+
+.arriba {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+
+}

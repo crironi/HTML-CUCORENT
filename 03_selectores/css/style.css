@@ -1,0 +1,71 @@
+/*
+header p {
+    color: brown;
+}
+
+footer p {
+    font-size: 0.5rem
+}
+
+[title="primero"]:hover  {
+    color: green;
+    font-size: 3rem;
+}
+*/
+
+:root {
+    --color1: rgb(37, 11, 170);
+    --color2: rgb(182, 7, 7);
+}
+
+header {
+    border: solid 0.1rem black;
+    padding: 1rem;
+    margin: 1rem 2rem;
+    /* box-shadow: 0.5rem 0.5rem 0.5rem 0.1rem gray; 
+     border-radius: 1rem 2rem 3rem 2rem;  */
+    background-color: papayawhip
+}
+
+h1 {
+    color: var(--color2);
+    text-shadow: 0.1rem 0.1rem 0.1rem gray; 
+}
+
+.marron {
+   color: var(--color1); 
+}
+
+.letra-peque {
+    font-size: 0.8rem;
+
+}
+
+.primero {
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-decoration: underline;
+    text-align: center;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.primero::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    /* font: italic bold 3rem 'Roboto', sans-serif; */
+}
+
+.primero::first-line {
+    color: darkslategrey;
+}
+
+ol {
+    list-style: lower-alpha;
+}
+
+.claro {
+    background-color: salmon;
+}

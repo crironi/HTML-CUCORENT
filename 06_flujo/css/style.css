@@ -1,0 +1,23 @@
+.ancho40 {
+    width: 40%;
+    
+}
+
+.flotar {
+    float: left;
+}
+
+.ancho100 {
+    width: 100%;
+    clear: both;
+}
+
+.final {
+    height: 10rem;
+}
+
+.pie {
+    position: fixed;
+    bottom: 5px;
+    background-color: papayawhip
+}
