@@ -1,0 +1,25 @@
+table{
+    margin: 4rem;
+    border: 1px solid black;
+}
+td, th{
+    border: 0.1px solid black;
+}
+.colores [scope="col"]{
+    color: blue;
+}
+
+.colores [scope="row"]{  /* Dar formato a un atributo.
+                Se utiliza el corchete, nombre atributo y valor*/
+    color: aqua;
+}
+
+.colores [scope]{
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.colores :not([scope]){
+    color: brown;
+}

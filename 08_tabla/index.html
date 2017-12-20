@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <table class="colores" border="1">
+            <tr>
+                <th scope="colgroup rowgroup">%</th>
+                <th scope="col">Hombres</th>
+                <th scope="col">Mujeres</th>
+            </tr>
+            <tr>
+                <th scope="row">Diseño</th>
+                <td>40</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <th scope="row">Informática</th>
+                <td>70</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th scope="row">ADE</th>
+                <td>50</td>
+                <td>50</td>
+            </tr>
+        </table>
+    </div>
+        
+        <table class="colores" border="1">
+            <tr>
+                <th scope="colgroup|rowgroup" colspan="2">%</th>
+                <th scope="col">Hombres</th>
+                <th scope="col">Mujeres</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Ciencias</th>
+                <th scope="row">Diseño</th>
+                <td>40</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <th scope="row">Informática</th>
+                <td>70</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Letras</th>
+                <th scope="row">ADE</th>
+                <td>50</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th scope="row">Derecho</th>
+                <td>50</td>
+                <td>40</td>
+                
+            </tr>
+        </table>
+
+        
+        <table class="colores" >
+            <tr>
+              <th colspan="2" rowspan="2"></th>
+              <th colspan="2" scope="colgroup">España</th>
+              <th colspan="2" scope="colgroup">Resto Europa</th>
+            </tr>
+            <tr>
+              <th scope="col">Hombres</th>
+              <th scope="col">Mujeres</th>
+              <th scope="col">Hombres</th>
+              <th scope="col">Mujeres</th>
+            </tr>
+            <tr>
+              <th rowspan="2" scope="rowgroup">Ciencias</th>
+              <th scope="row">Informática</th>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Diseño</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="rowgroup" rowspan="3">Letras</th>
+              <th scope="row">ADE</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Derecho</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Magisterio</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>        
+        
+</body>
+</html>
