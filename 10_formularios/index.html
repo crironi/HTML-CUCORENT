@@ -12,18 +12,66 @@
    <header>
        <h1>Formularios</h1>
    </header>
-   <form action="basedatos.php" method="POST">
-    <!--Entrada Libre de datos-->
-    <input type="text">
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <!--Selección-->
-    <input type="checkbox">
-    <input type="radiobuttons" name="" id="">
-    
-    <select name="" id="">
-        <option value=""></option>
-    </select>
+   <form action="" method="get">
 
+    <fieldset>
+        <!--Entrada Libre de datos-->
+        <legend>Datos Personales</legend>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos">
+        </div>
+        <div>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo">
+        </div>
+        <div>
+            <label for="passw">Contraseña</label>
+            <input type="password" name="passw" id="passw">
+        </div>
+        <div>
+            <label for="telf">Telefono</label>
+            <input type="tel" name="telf" id="telf">
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input type="color" name="color" id="color">
+        </div>
+        
+        <!--Selección-->
+        <div>
+            <input type="checkbox" name="isok" id="isok">
+            <label for="isok">Acepto las condiciones</label>
+        </div>
+        <div>
+            <legend>Idiomas</legend>
+            <div>
+                <input type="radio" name="lang" id="lang_sp" value="es">
+                <label for="lang_sp">Español</label>
+            </div>
+            <div>
+                <input type="radio" name="lang" id="lang_en" value="en">
+                <label for="lang_en">Ingles</label>
+            </div>
+        </div>
+        
+        <div>
+            <legend>Cursos</legend>
+            <select name="curso" id="curso">
+                <option value="123">HTML&CSS</option>
+                <option value="234">JavaScript</option>
+                <option value="456">Angular</option>
+            </select>
+        </div>     
+        <!--Botones > comportamiento -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </fieldset>    
    </form>
 </body>
 </html>
