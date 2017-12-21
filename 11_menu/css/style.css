@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+nav ul {
+    list-style: none;
+
+}
+
+nav>ul>li{
+    width: --webkit-calc(100% / 6);
+    display: inline-block;
+
+
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;  
+}
+
+nav>ul>li>ul{
+    display: none
+}
+
+nav>ul>li:hover a{
+    color: rgb(46, 3, 3);
+}
+
+nav>ul>li:hover ul{
+    display: block;
+    position: absolute;
+    top: 2rem;
+
+}
