@@ -1,0 +1,11 @@
+.margen{
+    border: 1px solid black;
+}
+.columna{
+    background-color: antiquewhite;
+}
+.wraper_pie{
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.1rem;
+}
